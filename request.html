@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="request.css">
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      thead {color: black;}
+      tbody 
+      tfoot 
+      table.center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      th, td {
+padding: 10px;
+}
+</style>
+</head>
+<body>
+  <nav id="navbar">
+    <div id="logo">
+        <img src="logo.png" alt="Company logo" height="120" width="400">
+    </div>
+    <ul>
+        <li class="item"><a href="Animal.html">HOME</a></li>
+        <li class="item"><a href="About.html">ABOUT US</a></li>
+        <li class="item"><a href="request.html">REQUEST RESCUE</a></li>
+        <li class="item"><a href="#">VOLUNTEER</a></li>
+        <li class="item"><a href="medialfac.html">MEDICAL HELP</a></li>
+        <li class="item"><a href="Contact.html">CONTACT US</a></li>
+    </ul>
+  </nav>
+  <h2 id="gh">RESCUE REQUESTS</h2>
+  <h3 id="ty">DASHBOARD</h3>  
+    <table>
+        <tr>
+          <b> 
+          <th>Id</th>
+          <th>Type</th>
+          <th>ANIMAL</th>
+          <th>DESCRIPTION</th>
+          <Th>LOCATION</TH>
+            <TH>DISTRICT</TH>
+          <th>NAME</th>
+          <th>STATUS</th>
+
+          </b>  </tr>
+        <tr>
+            <td>A1</td>
+            <td>INJURY</td>
+            <td>DOG</td>
+            <td>INJURY IN LEFT FOOT DUE TO CAR ACCIDENT</td>
+            <td>SHAHDARA ,BHOLANATH NAGAR, DELHI</td>
+            <TD>SHAHDARA</TD>
+            <td>KESHAV</td>
+           <td>ACTIVE(IN PROGRESS)</td>
+          </tr>
+          <tr>
+            <td>A2</td>
+            <td>PREGNANY</td>
+            <td>CAT</td>
+            <td>The CAT NEED TO BE TAKEN TO DOCTOR AND COMPLETE PREGNANCY COMPLICATIONS  </td>
+            <td>VIKAS PURI, BHOLANATH ,DELHI</td>
+            <TD>WEST DELHI</TD>
+            <td>ROHAN</td>
+           <td>COMPLETE</td>
+          </tr>
+    
+          <tr>
+            <td>A3</td>
+            <td>ADOPTION</td>
+            <td>DOG</td>
+            <td>ITS A NEW BORN PUPPY AND VERY CUTE AND NEED TO BE TAKEN TO HOSPITAL</td>
+            <td>SECTOR 4,ROHINI,DELHI</td>
+            <TD>ROHINI</TD>
+            <td>ARCHIT</td>
+           <td>ACTIVE(NOT INITIATED)</td>
+          </tr>
+          <tr>
+            <td>A4</td>
+            <td>REHABILITATION</td>
+            <td>COW</td>
+            <td>THE CALF IS NEW BORN BUT DUE TO DEATH OF MOTHER NEED TO BE TAKEN TO SHELTER HOME</td>
+            <td>SECTOR 12 , DWARKA, DELHI</td>
+            <TD>DWARKA</TD>
+            <td>RISHABH</td>
+           <td>CANCELLED</td>
+          </tr>
+          <tr>
+           </table>
+        
+          <h2 id="gh">RESCUE REQUEST </h2>
+          <div class="container">
+            <form action="" method="post">
+
+              <label for="typ">Select Type</label>
+              <input list="typ" name="typ" type="text">
+              <datalist id="typ">
+                <option value="Injury">
+                <option value="Illness">
+                <option value="Adoption">
+                <option value="Rehabilitation">
+                <option value="Pregnancy">
+              </datalist>
+
+              <label for="ani">Type of Animal</label>
+              <input type="text" id="ani" name="animal">
+
+              <label for="subject">Description</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+              <label for="loc">Location</label>
+              <input type="text" id="loc" name="firstname" >
+
+              <label for="fname">Username</label>    <!-- requester name -->
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+             
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <footer class="center">
+            Copyright &copy; www.critterwelfare.in All Rights Reserved
+          </footer>
+    
+    
+</body>
+</html>

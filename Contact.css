@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    margin-right: 50px;
+}
+#navbar{
+    background-color: rgba(255, 68, 0, 0.878);
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}   
+#navbar ul li a{
+    display: block;
+    padding: 12px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  h3{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 2rem;
+  }
+  footer{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    
+}
+#logo{
+    margin-right: 50px;
+}
+#navbar{
+    background-color: rgba(255, 68, 0, 0.878);
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}   
+#navbar ul li a{
+    display: block;
+    padding: 12px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+table{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+#df{
+    text-align: center;
+    font-size: 2rem;
+    
+}
